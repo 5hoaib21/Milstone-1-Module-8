@@ -281,6 +281,14 @@ footer .footer-container {
     Specificity: (0,1,1) {
     font-size: 30px;
   }
+  nav {
+    gap: 20px;
+  }
+
+  nav .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
   #about,
   #skills,
@@ -296,11 +304,26 @@ footer .footer-container {
   }
 
   #skills .skills-container .skill-box,
-  #about .about-container .about-info {
+  #about .about-container .about-info,
+  footer .footer-container,
+  #resume .resume-container,
+  nav {
     flex-direction: column;
   }
 
   .skill-box .skill-card {
     max-width: 100%;
+  }
+
+  #resume .resume-container {
+    margin: 60px;
+  }
+  .resume-card {
+    margin-right: 10px;
+  }
+
+  .footer-container form input[type="text"],
+  .footer-container form textarea {
+    width: 100%;
   }
 }
