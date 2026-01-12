@@ -1,0 +1,11 @@
+*{
+  padding: 0 ;
+  margin: 0;
+  
+}
+.container>* {
+  border: 3px solid gold;
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 5px;
+}
